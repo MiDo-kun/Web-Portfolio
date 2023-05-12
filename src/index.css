@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=JetBrains+Mono:100,200,300,regular,500,600,700,800,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;1,600&display=swap);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+div,
+button,
+img:focus {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+
+.typed-cursor {
+  width: 1rem;
+  border-left: solid #888.8rem;
+}
+
+.react-activity-calendar {
+  margin: auto;
+  max-width: 900px !important;
+}
+
+.react-activity-calendar svg {
+  width: 100% !important;
+}
+
+#project-experience a {
+  color: cornflowerblue;
+}
+
+project-experience li {
+  margin-bottom: 7px;
+}
+
+#project-experience li::first-letter {
+  color: #f43f5e;
+}
+
+#blog-title,
+#synopsis {
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 !important;
+}
+
+#blog-title {
+  -webkit-line-clamp: 1;
+}
+
+#blog-title:hover {
+  -webkit-line-clamp: 2;
+}
+
+#synopsis {
+  -webkit-line-clamp: 4;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px;
+  color: #888;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #333 !important;
+}
+
+.leaflet-container {
+  height: 100%;
+}
+
+.leaflet-control-zoom {
+  display: none;
+}
+
+/* Design scrollbar if the minimum width is above 835 */
+@media only screen and (min-width: 835px) {
+
+  /* Scrollbar Design */
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #blog-title {
+    -webkit-line-clamp: 2;
+  }
+}
