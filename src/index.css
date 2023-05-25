@@ -68,17 +68,13 @@ project-experience li {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   position: relative;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
   padding: 0 !important;
 }
 
 #blog-title {
-  -webkit-line-clamp: 1;
-}
-
-#blog-title:hover {
   -webkit-line-clamp: 2;
 }
 
@@ -127,11 +123,5 @@ project-experience li {
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #888;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  #blog-title {
-    -webkit-line-clamp: 2;
   }
 }
