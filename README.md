@@ -1,10 +1,10 @@
 # Web Portolio
 
-## Project Description
-
   This project is a minimalist personal portfolio that is focused on showcasing your skills and experience as a web developer. The portfolio provides a clean and simple design, allowing visitors to easily navigate and view your work.
   The portfolio is built using Vite and React, making it easy to customize and extend to fit your specific needs.
-  
+
+<img src="https://lh3.googleusercontent.com/E90JgkUfau4HMEUpPfLYFYsqc89YxZWxKEQT2btUmMKapReo127gkUmqUpTCMepBQOHyvyjK3gPMvpMiw6siS12cnWZol_5tbbk0dqlhNjOUOkdUqSDOccQbBUVEFh62lutrH96YKZ_dWcWHiIVhB7BWlf3Pvn8_bhmEzfsFdvNcXF8h07EitL-yuEKUnT_EKtvi-QX3liNF5LLHAU5m_84MN2BUZjIw6T9Ia4N8RN-XNyswopmzZHIfEvcBZDfHQtEpmoz2BwzpMTnfozPtm7oXYv5VUsrg9uOfYMlku81a9qdHz5YTi-hE2b5UeMyBWq8CTTKGd_JXPtzIsZy5zekoeaj_O4R4H63AE0ByeMhDWQOKc4MTyT2zlgq8TmFwZmtrDJJmPNatewrtUw-pHPi-PFAJHMyHGQ1FP8RVnVZZWYRIsi1qyFEmDVTK5H2GJHghCOHRDnhmeaoBkqwOK6HUUYCgkBHno-At44k1p1hV-UUgnqM6JGSqLZbuIB0o82tc6fCB0hfu2l9rby2FzuixMLy4PJ0LSFt9GyDtWoVtqwtRkI2vtsB0SYL2lwrf1Qbr66M8x4qswUBTRUMbiZPBe_DSkG7I5U7gH3W7uDWyBwVdtjFIl8-QJwH2UEp1nhyDhPQADx66qB7mBCqUSinGyTVc4dUH9dUJ299JldYPqy-4y6u6Y_C2ZqLJgtNnX5rgmAanGpNeiY3xWVYC1nz9b9OtcMANz4SpWBhDHgzxhJnXlOzvbX0tG4KEPFqWkhze4gJs0o2UL0KjoiHgytoINaPFPa4I9cPehUSrnu7Z9PgZAXKIl0n5OVZ1JusiH5LrP-pz4CHtoo7FnhCJur0fFmY6_t9BggxPmSSbj9Mf8fVhATEQxkm4dDclLH78Rdxt9FmKg-Qeq6V_cQOFmDP4ATZnxoDalKQx-HEho3iAnhlwVWr690T4Q6yugcocLJC3n37qIw5tfjZL1EujZA=w1363-h635-s-no?authuser=0" width="100%"/>
+
   You can view the live website [here](http://jerson-dela-cerna.netlify.com/).
 
   **Note**: It uses github gists to store json data for dynamic access to the content which can be found [here](https://gist.github.com/MiDo-kun/059bc3830efd9b81d8359ac9924f6583).
