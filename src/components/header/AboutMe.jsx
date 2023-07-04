@@ -4,6 +4,7 @@ import Typed from "typed.js";
 const AboutMe = () => {
   const linkedInProfile = import.meta.env.VITE_LINKEDIN_PROFILE_LINK;
   const resume = import.meta.env.VITE_RESUME_LINK;
+  const yearOfBirth = new Date().getFullYear() - 2003;
   const typeAnimation = useRef(null);
 
   useEffect(() => {
@@ -37,7 +38,8 @@ const AboutMe = () => {
         </h3>
         <p
           className="text-gray-200 tracking-wide pt-2 text-justify mr-5  before:absolute before:right-full before:top-2 mobile-lg:mr-2 text-base mobile-md:text-sm mobile-xs:text-xs">
-          A web <span id="developer">developer</span> with knowledge in <span id="full-stack" className="whitespace-nowrap">full-stack</span> web development. As a <span id="freelancer">freelancer</span>, I've gained valuable <span id="aboutMe-experience">experience</span> in building web applications and <span id="collaborated">collaborated</span> with clients to deliver <span id="high-quality" className="whitespace-nowrap">high-quality</span> projects. I'm <span id="passionate">passionate</span>  about web development and always eager to take on new <span id="challenges">challenges</span> and <span id="learn">learn</span> new technologies. Let's work together to <span id="build">build</span> innovative web <span id="application" className="whitespace-nowrap">applications!</span></p>
+          A {yearOfBirth}-year-old web developer specializing in both front-end and back-end development. With a keen eye for detail and a passion for problem-solving, I excel in delivering innovative solutions in both independent and collaborative settings. Committed to delivering exceptional results, I am eager to contribute my expertise and drive to create impactful web experiences.
+        </p>
         <div className="flex gap-[.9rem] mt-5 mobile-lg:mt-3">
           <a href={linkedInProfile} target="_blank" rel="noreferrer">
             <button

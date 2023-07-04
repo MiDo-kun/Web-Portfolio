@@ -2,7 +2,7 @@ import BlogContainer from './BlogContainer';
 
 const BlogPost = () => {
   return (
-    <section id="blog" className="mt-10 pt-12 tablet-lg:mt-2 mobile-lg:-mt-0 mobile-lg:pt-14">
+    <section id="blog" className="mt-6 pt-8 tablet-lg:mt-2 mobile-lg:-mt-8 mobile-lg:pt-12">
       <h2
         className="text-[1.6rem] font-poppins tracking-section text-[#7F8AF0] border-blue-400 border-l-8 pl-3 tablet-lg:text-2xl tablet-md:hidden">
         Blog Post

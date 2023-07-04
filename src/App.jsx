@@ -17,10 +17,10 @@ function App() {
       <main className="ml-16 mobile-lg:ml-2">
         <div className="w-[1010px] mx-auto text-white tablet-lg:w-[600px] mobile-lg:w-full">
           <AboutMe />
-          <AnnotateText />
+          {/* <AnnotateText /> */}
           <GithubChart />
           <SkillsAndExperience />
-          <FeaturedProjects />
+          {/* <FeaturedProjects /> */}
           <BlogPost />
         </div>
       </main>
