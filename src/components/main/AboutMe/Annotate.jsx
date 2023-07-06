@@ -39,7 +39,7 @@ function annotateAboutMe(color) {
  ])
 }
 
-function annotateKeyword(id, type, color, padding, iterations = 3) {
+function annotateKeyword(id, type, color, padding, iterations = 2) {
   return annotate(document.querySelector(id), {
     animationDuration: 1200,
     padding: padding,

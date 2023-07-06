@@ -18,7 +18,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* a,
+a,
 div,
 button,
 img:focus {
@@ -29,7 +29,7 @@ img:focus {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-} */
+}
 
 button:focus {
   outline: none !important;
