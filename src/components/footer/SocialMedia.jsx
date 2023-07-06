@@ -31,7 +31,7 @@ const SocialMedia = () => {
                 {parse(account.svg)}
                 <p className='font-robotoMono'>{account.social}</p>
               </span>
-              <a href={account.link} className="text-xs underline block leading-[1] mb-2 text-[#03C988]" target="_blank" rel="noreferrer">{account.simplifiedLink}</a>
+              <a href={account.link} className="text-xs underline block leading-[1] ml-[1.2px] mb-2 text-[#03C988]" target="_blank" rel="noreferrer">{account.simplifiedLink}</a>
             </div>
           )
         })}

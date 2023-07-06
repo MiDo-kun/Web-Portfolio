@@ -18,7 +18,7 @@ const BlogContent = ({ _id, title, cover, content, createdAt }) => {
         </a>
       </div>
       <div className="flex pl-3 flex-col justify-between w-2/3">
-        <h2 className="text-[1rem] font-semibold text-yellow-400 hover:underline mobile-md:text-sm mobile-xs:text-xs">
+        <h2 className="text-[1rem] font-semibold text-amber-400 hover:underline mobile-md:text-sm mobile-xs:text-xs">
           <a id="blog-title" href={`${BLOG_SITE}/post/${_id}`} target="_blank" rel="noopener noreferrer">
             {title}
           </a>

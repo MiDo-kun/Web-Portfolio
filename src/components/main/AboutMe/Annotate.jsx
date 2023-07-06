@@ -22,31 +22,21 @@ function AnnotateText() {
 }
 
 function annotateAboutMe(color) {
-  const developer = annotateKeyword("#developer", 'box', color, [0, 2]);
-  const fullStack = annotateKeyword("#full-stack", 'circle', color, [3, 7]);
-  const freelancer = annotateKeyword("#freelancer", 'box', color, [0, 2]);
-  const experience = annotateKeyword("#aboutMe-experience", 'circle', color, [3, 5]);
-  const collaborated = annotateKeyword("#collaborated", 'box', color, [0, 2]);
-  const highQuality = annotateKeyword("#high-quality", 'circle', color, [3, 5]);
-  const passionate = annotateKeyword("#passionate", 'box', color, [0, 2]);
-  const challenges = annotateKeyword("#challenges", 'circle', color, [3, 5]);
-  const learn = annotateKeyword("#learn", 'box', color, [0, 2]);
-  const build = annotateKeyword("#build", 'circle', color, [3, 5]);
-  const application = annotateKeyword("#application", 'box', color, [0, 2]);
+  const specializing = annotateKeyword("#specializing", 'box', color, [0, 2]);
+  const development = annotateKeyword("#development", 'box', color, [0, 2]);
+  const delivering = annotateKeyword("#delivering", 'box', color, [0, 2]);
+  const commited = annotateKeyword("#commited", 'box', color, [0, 2]);
+  const exceptional = annotateKeyword("#exceptional", 'box', color, [0, 2]);
+  const impactful = annotateKeyword("#impactful", 'box', color, [0, 2]);
 
   annotateSection([
-    developer,
-    fullStack,
-    freelancer,
-    experience,
-    collaborated,
-    highQuality,
-    passionate,
-    challenges,
-    learn,
-    build,
-    application
-  ])
+    specializing,
+    development,
+    delivering,
+    commited,
+    exceptional,
+    impactful
+ ])
 }
 
 function annotateKeyword(id, type, color, padding, iterations = 3) {

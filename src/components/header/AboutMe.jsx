@@ -38,8 +38,8 @@ const AboutMe = () => {
         </h3>
         <p
           className="text-gray-200 tracking-wide pt-2 text-justify mr-5  before:absolute before:right-full before:top-2 mobile-lg:mr-2 text-base mobile-md:text-sm mobile-xs:text-xs">
-          A {yearOfBirth}-year-old web developer specializing in both front-end and back-end development. With a keen eye for detail and a passion for problem-solving, I excel in delivering innovative solutions in both independent and collaborative settings. Committed to delivering exceptional results, I am eager to contribute my expertise and drive to create impactful web experiences.
-        </p>
+            A {yearOfBirth}-year-old web developer <span id="specializing">specializing</span> in both front-end and back-end <span id="development">development</span>. With a keen eye for detail and a passion for problem-solving, I excel in <span id="delivering">delivering</span> innovative solutions in both independent and collaborative settings. <span id="commited">Commited</span> to delivering <span id="exceptional">exceptional</span> results, I am <span id="eager">eager</span> to contribute my expertise and drive to create <span id="impactful">impactful</span> web experiences.
+       </p>
         <div className="flex gap-[.9rem] mt-5 mobile-lg:mt-3">
           <a href={linkedInProfile} target="_blank" rel="noreferrer">
             <button
